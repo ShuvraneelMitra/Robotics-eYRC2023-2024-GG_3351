@@ -1,0 +1,18 @@
+Team ID = 
+Trained weights drive link = "https://drive.google.com/file/d/1qVbLjInX5qj1zU7FqbEeZpCyXmMxwXXC/view?usp=sharing"
+
+###############################################################################
+'''
+Please write the complete steps taken by your team explaining how you completed Task 2B. It is adviced to be as elaborate as possible.
+
+1. We looked at the images in the training dataset provided to identify a suitable input size for our CNN.
+
+2. We experimented with various pre-trained models (modifying them to our needs) and batch sizes, training each one for 10 epochs.
+
+3. We found a batch size of 32 and efficientNet_v2 small model to yield the best results.
+
+4. We experimented with input image size to balance between data retention and training speed. We found a size of (275,183) to be ideal.
+
+5. We trained the model for 100 epochs to achieve an accuracy of 98.80% on train set and 100% on test set.
+
+6. We tested the model on data aquired from google images to test its effectiveness.

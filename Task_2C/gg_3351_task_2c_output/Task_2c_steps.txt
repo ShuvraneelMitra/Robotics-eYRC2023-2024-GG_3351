@@ -1,0 +1,11 @@
+Team ID = 
+Trained weights drive link = "https://drive.google.com/file/d/1qVbLjInX5qj1zU7FqbEeZpCyXmMxwXXC/view?usp=sharing"    
+###############################################################################
+'''
+Please write the complete steps taken by your team explaining how you completed Task 2C. It is adviced to be as elaborate as possible.
+
+1. We applied a threshold to get a binary image with prominent image borders.
+2. We used findcontours() function to isolate the location of image.
+3. We filtered for boxes of side length from 50 to 60 pixels.
+4. We saved the images.
+5. We used our model trained in Task_2B to classify the images.
